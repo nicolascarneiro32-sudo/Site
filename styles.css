@@ -118,8 +118,8 @@ body {
 }
 
 .foto-principal {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 10px 30px var(--shadow);

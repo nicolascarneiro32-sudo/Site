@@ -117,16 +117,11 @@ body {
     align-items: center;
 }
 
-.image-placeholder {
+.foto-principal {
     width: 350px;
     height: 350px;
-    background: linear-gradient(135deg, var(--sage-green), var(--earth-medium));
     border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: var(--white);
+    object-fit: cover;
     box-shadow: 0 10px 30px var(--shadow);
 }
 

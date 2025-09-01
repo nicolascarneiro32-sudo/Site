@@ -118,11 +118,13 @@ body {
 }
 
 .foto-principal {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 10px 30px var(--shadow);
+    width: 350px;          /* controla a largura */
+    height: 350px;         /* controla a altura */
+    border-radius: 50%;    /* deixa redonda */
+    object-fit: cover;     /* corta para caber sem distorcer */
+    display: block;        /* remove espaços extras */
+    margin: 0 auto;        /* centraliza */
+    box-shadow: 0 10px 30px var(--shadow); /* mantém a sombra */
 }
 
 .hero-title {

@@ -299,6 +299,9 @@ section {
 .sobre-image .image-placeholder {
     width: 180px;
     height: 250px;
+    object-fit: cover; /* corta a foto para caber sem distorcer */
+    border-radius: 30px; /* arredondamento igual ao da moldura */
+    display: block;
     border-radius: 30px;
     background: linear-gradient(135deg, var(--earth-medium), var(--sage-green));
 }

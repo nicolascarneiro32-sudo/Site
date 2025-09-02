@@ -7,14 +7,14 @@
 
 :root {
     /* Cores terrosas e azuis escuros */
-    --primary-color: #2C3E50;        /* Azul escuro */
-    --secondary-color: #8B4513;      /* Marrom terroso */
+    --primary-color: #39331D;        /* Azul escuro */
+    --secondary-color: #6E7041;      /* Marrom terroso */
     --accent-color: #D2691E;         /* Laranja terroso */
     --earth-light: #DEB887;          /* Bege claro */
-    --earth-medium: #CD853F;         /* Peru */
-    --navy-blue: #1A252F;            /* Azul marinho */
+    --earth-medium: #39331D;         /* Peru */
+    --navy-blue: #786042;            /* Azul marinho */
     --sage-green: #9CAF88;           /* Verde sálvia */
-    --cream: #F5F5DC;                /* Creme */
+    --cream: #CCB693;                /* Creme */
     --white: #FFFFFF;
     --text-dark: #2C3E50;
     --text-light: #6C7B7F;

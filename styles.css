@@ -581,4 +581,54 @@ section {
     }
 }
 
+/* Fotos circulares */
+.hero-photo, .sobre-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid var(--primary-color);
+    box-shadow: 0 6px 20px var(--shadow);
+    margin: 0 auto;
+}
+
+/* Ajuste cores do texto */
+:root {
+    --text-dark: #3a3a2e;  /* tom mais fechado, elegante */
+    --text-light: #555c4a; /* tom suave dentro da paleta */
+}
+
+/* Melhor alinhamento sobre mim */
+.sobre-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+/* Prática: texto e modalidades lado a lado */
+.pratica-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.pratica-info, .modalidades {
+    flex: 1;
+}
+
+/* Mandala no rodapé (marca d’água discreta) */
+.footer {
+    position: relative;
+}
+.footer::before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    width: 120px;
+    height: 120px;
+    background: url("Minha mandala.png") no-repeat center/contain;
+    opacity: 0.2;
+}
 

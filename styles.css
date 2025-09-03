@@ -582,9 +582,19 @@ section {
 }
 
 /* Fotos circulares */
-.hero-photo, .sobre-image img {
-    width: 280px;
+.hero-photo, {
+    width: 480px;
     height: 480px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid var(--primary-color);
+    box-shadow: 0 6px 20px var(--shadow);
+    margin: 0 auto;
+}
+
+.sobre-image img {
+    width: 380px;
+    height: 580px;
     object-fit: cover;
     border-radius: 50%;
     border: 6px solid var(--primary-color);

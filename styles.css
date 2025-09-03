@@ -635,9 +635,9 @@ section {
     content: "";
     position: absolute;
     top: -40px;
-    right: 10px;
-    width: 50px;
-    height: 50px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
     background: url("Minha mandala.png") no-repeat center/contain;
     opacity: 0.2;
 }

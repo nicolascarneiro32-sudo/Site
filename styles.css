@@ -632,3 +632,15 @@ section {
     opacity: 0.2;
 }
 
+.hero {
+    position: relative;
+}
+
+.hero-mandala {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: auto;
+    opacity: 0.2;
+}

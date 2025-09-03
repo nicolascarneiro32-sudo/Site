@@ -634,7 +634,7 @@ section {
 .footer::before {
     content: "";
     position: absolute;
-    top: -40px;
+    top: 0px;
     right: 20px;
     width: 100px;
     height: 100px;

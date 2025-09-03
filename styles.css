@@ -118,7 +118,7 @@ body {
 }
 
 .hero-container {
-    max-width: 1200px;
+    max-width: 2200px;
     margin: 0 auto;
     padding: 0 20px;
     display: grid;
@@ -211,8 +211,8 @@ body {
 }
 
 .image-placeholder {
-    width: 450px;
-    height: 450px;
+    width: 650px;
+    height: 650px;
     background: linear-gradient(135deg, var(--sage-green), var(--earth-medium));
     border-radius: 50%;
     display: flex;
@@ -584,7 +584,7 @@ section {
 /* Fotos circulares */
 .hero-photo, .sobre-image img {
     width: 280px;
-    height: 280px;
+    height: 480px;
     object-fit: cover;
     border-radius: 50%;
     border: 6px solid var(--primary-color);

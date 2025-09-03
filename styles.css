@@ -634,8 +634,8 @@ section {
 .footer::before {
     content: "";
     position: absolute;
-    top: 10px;
-    left: 100px;
+    top: 15px;
+    left: 150px;
     width: 100px;
     height: 100px;
     background: url("Minha mandala.png") no-repeat center/contain;

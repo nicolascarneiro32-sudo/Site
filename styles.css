@@ -206,8 +206,10 @@ body {
     width: 100%;
     max-width: 400px;
     height: auto;
-    border-radius: 20px solid var(--primary-color);
+    border-radius: 20px 
+    border: 7px solid var(--primary-color);
     object-fit: cover;
+    box-shadow: 0 6px 20px var(--shadow);
 }
 
 .image-placeholder {
@@ -582,7 +584,7 @@ section {
 }
 
 /* Fotos circulares */
-.hero-photo, {
+.hero-photo {
     width: 480px;
     height: 480px;
     object-fit: cover;

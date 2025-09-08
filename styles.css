@@ -586,8 +586,8 @@ section {
     width: 480px;
     height: 480px;
     object-fit: cover;
-    border-radius: 100%;
-    border: 6px solid var(--primary-color);
+    border-radius: 20px;
+    border: 7px solid var(--primary-color);
     box-shadow: 0 6px 20px var(--shadow);
     margin: 0 auto;
 }

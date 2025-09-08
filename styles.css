@@ -25,7 +25,7 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
-    background-color: var(--cream);
+    background-color: linear-gradient(180deg, #d2b48c 0%, #f5e6d3 100%);
 }
 
 .container {

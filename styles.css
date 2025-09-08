@@ -499,66 +499,144 @@ section {
 }
 
 /* Responsividade */
+/* ============================
+   MOBILE STYLES
+   ============================ */
 @media (max-width: 768px) {
-    /* Hero */
-    .hero-container {
-        grid-template-columns: 1fr;
+    /* ===== GERAL ===== */
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    header {
+        flex-direction: column;
         text-align: center;
-        gap: 2rem;
+        padding: 1rem;
+    }
+
+    header nav {
+        flex-wrap: wrap;
+        gap: 0.8rem;
+        justify-content: center;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        align-items: center;
+    }
+
+    .hero-buttons a {
+        width: 100%;
+        max-width: 220px;
+        text-align: center;
     }
 
     .hero-photo {
-        max-width: 250px;
+        width: 100%;
+        max-width: 220px;
         height: auto;
-        margin: 0 auto;
+        margin: 1.5rem auto 0 auto;
         border-radius: 20px;
+        border: 7px solid var(--primary-color);
+        display: block;
     }
 
-    .hero-title {
-        font-size: 2.2rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1rem;
-    }
-
-    /* Sobre */
-    .sobre-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .sobre-image img {
-        max-width: 250px;
-        height: auto;
-        margin: 0 auto;
-        border-radius: 20px;
-    }
-
-    /* Prática */
-    .pratica-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .modalidade-cards {
-        grid-template-columns: 1fr;
-    }
-
-    /* Contato */
-    .contato-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    /* Footer */
-    .footer-content {
+    /* ===== SOBRE MIM ===== */
+    .sobre {
+        display: flex;
         flex-direction: column;
-        text-align: center;
-        gap: 1rem;
+        align-items: center;
+        text-align: justify;
     }
-}
 
+    .sobre h2 {
+        text-align: center;
+        margin-bottom: 1.2rem;
+    }
+
+    .sobre p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        max-width: 100%;
+    }
+
+    .sobre img {
+        width: 100%;
+        max-width: 240px;
+        height: auto;
+        margin: 1.5rem auto 0 auto;
+        border-radius: 50%;
+        border: 6px solid var(--primary-color);
+        display: block;
+    }
+
+    /* ===== PRÁTICA PROFISSIONAL ===== */
+    .pratica {
+        text-align: center;
+    }
+
+    .pratica h2 {
+        margin-bottom: 1rem;
+    }
+
+    .pratica p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    /* ===== CONTATO ===== */
+    .contato {
+        text-align: center;
+    }
+
+    .contato h2 {
+        margin-bottom: 1rem;
+    }
+
+    .contato form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .contato input,
+    .contato textarea {
+        width: 100%;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 1.5rem 1rem;
+    }
+    
 @media (max-width: 480px) {
     .hero-title {
         font-size: 1.8rem;
